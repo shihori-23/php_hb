@@ -1,0 +1,116 @@
+body {
+  color: #1f1f1f;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+}
+
+br {
+  margin: 0;
+  height: 0;
+}
+/* ヘッダー */
+.header_flex {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_left {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.app_h1 {
+  font-size: 1rem;
+}
+
+/* メインテーブル */
+
+.msg {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border: solid 1px #1f1f1f;
+  box-shadow: 1px 1px 8px #dcdcdc;
+  border-radius: 0.25rem;
+}
+
+.salon_title {
+  padding-left: 20px;
+  letter-spacing: 0.1rem;
+  margin-bottom: 5px;
+}
+
+.p_img,
+.post_img {
+  width: 280px;
+  height: 280px;
+  margin: 5px auto;
+}
+
+.msg_menu {
+  padding: 15px 0;
+}
+
+.msg_p {
+  padding-left: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 5px;
+}
+
+.com_container {
+  width: 280px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #dcdcdc;
+}
+
+.cm_title {
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+.msg_cm {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+.sign {
+}
+.icon_container {
+  width: 30%;
+  margin-top: 15px;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+.d_icon {
+  margin: 10px 5px;
+}
+
+/* ナビアイコン */
+
+.nav_icon {
+  margin-left: 20px;
+}
+
+.nav_btn {
+  font-size: 0.85rem;
+  letter-spacing: 0.25em;
+  color: #1f1f1f;
+  margin: 20px auto 0;
+  display: block;
+  width: 120px;
+}
+
+.nav_btn:hover {
+  color: #e264e2;
+  text-decoration: none;
+  border-bottom: solid 2px #e264e2;
+}
+
+.title {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 0.25em;
+}

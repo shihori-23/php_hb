@@ -1,0 +1,147 @@
+body {
+  color: #1f1f1f;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+}
+
+.nav_btn {
+  font-size: 0.85rem;
+  letter-spacing: 0.25em;
+  color: #1f1f1f;
+  margin: 0 auto;
+  display: block;
+  width: 80px;
+}
+
+.nav_btn:hover {
+  color: #e264e2;
+  text-decoration: none;
+  border-bottom: solid 2px #e264e2;
+}
+
+.main_h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.main_container {
+  margin-bottom: 60px;
+}
+
+.form_container {
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 0.25rem;
+  border: solid 1px #1f1f1f;
+  box-shadow: 1px 1px 8px #dcdcdc;
+}
+
+.title {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 0.25em;
+}
+
+label {
+  letter-spacing: 0.25em;
+  font-size: 0.85rem;
+}
+
+.lb_p {
+  margin-top: 10px;
+  letter-spacing: 0.1em;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(3em + 0.85rem + 3px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1f1f1f;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 8px #dcdcdc;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: 1px solid #1f1f1f;
+}
+/* 
+form {
+  width: 90%;
+  margin: 60px auto 0;
+} */
+
+.form_btn {
+  width: 96%;
+  height: 3rem;
+  color: #fff;
+  background-color: #1f1f1f;
+  border: solid 2px #1f1f1f;
+  font-size: 0.85rem;
+  margin-top: 20px;
+  line-height: 1.5rem;
+  letter-spacing: 0.25em;
+}
+
+.form_btn:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+  border-color: #1f1f1f;
+}
+
+.error {
+  color: #dc143c;
+  font-size: 0.2rem;
+  letter-spacing: 0.01rem;
+}
+
+.post_img {
+  height: 280px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+/* thanks.php用 */
+.container {
+  width: 90%;
+  padding: 20px;
+  margin-top: 60px;
+  border-radius: 0.25rem;
+  border: solid 1px #1f1f1f;
+  box-shadow: 1px 1px 8px #dcdcdc;
+}
+
+.container_p {
+  font-size: 0.8rem;
+}
+
+.container_btn {
+  height: 2.5rem;
+}
+
+/* ヘッダー */
+
+.header_flex {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_left {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.app_h1 {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.nav_icon {
+  margin-left: 20px;
+}

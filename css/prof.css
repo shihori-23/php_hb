@@ -1,0 +1,81 @@
+body {
+  color: #1f1f1f;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+/* ヘッダー */
+
+.header_flex {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_left {
+  display: flex;
+  justify-content: center;
+}
+
+.app_h1 {
+  font-size: 1rem;
+  line-height: 50px;
+}
+
+.nav_icon {
+  margin-left: 20px;
+}
+
+/* maincontent */
+.msg {
+  width: 90%;
+  /* height: 500px; */
+  margin: 20px auto;
+  padding: 20px 30px;
+  border: solid 1px #707070;
+  box-shadow: 1px 1px 8px #dcdcdc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+.main_title {
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.msg_lb,
+.msg_p {
+  letter-spacing: 0.1rem;
+  padding-bottom: 8px;
+}
+
+.msg_lb {
+  font-size: 0.6rem;
+}
+
+.msg_p {
+  font-size: 0.85rem;
+  padding-bottom: 17px;
+  line-height: 1rem;
+}
+
+.mag_postal {
+  padding-bottom: 8px;
+}
+
+.prof_flex {
+  width: 150px;
+  margin: 20px auto 0;
+}
+
+.prof_flex a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
